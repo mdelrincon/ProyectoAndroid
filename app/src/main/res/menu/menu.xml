@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <group>
+        <item
+            android:id="@+id/Nacional"
+            android:title="Nacional"
+            app:showAsAction="never" />
+        <item android:id="@+id/Economia"
+            android:title="Economia" />
+        <item android:id="@+id/Deportes"
+            android:title="Deportes" />
+        <item android:id="@+id/Tecnologia"
+            android:title="Tecnologia" />
+        <item android:id="@+id/Todas"
+            android:title="Todas" />
+    </group>
+
+</menu>

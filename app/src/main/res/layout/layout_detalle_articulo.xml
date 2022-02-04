@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/art_titulo"
+                android:layout_width="392dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="30dp"
+                android:layout_marginBottom="20dp"
+                android:fontFamily="@font/noto_sans_bold"
+                android:gravity="center"
+                android:text="Titulo"
+                android:textColor="#3CD4A5"
+                android:textSize="20sp"
+                android:textStyle="bold"
+                android:translationX="10dp"
+                app:layout_constraintTop_toTopOf="parent"
+                tools:ignore="MissingConstraints"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <ImageView
+                android:id="@+id/art_imagen"
+                android:layout_width="411dp"
+                android:layout_height="182dp"
+                android:layout_gravity="center"
+                android:layout_margin="20dp"
+                android:scaleType="centerCrop"
+                android:translationY="-20dp"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.497"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/art_titulo"
+                app:layout_constraintVertical_bias="0.146" />
+
+            <TextView
+                android:id="@+id/art_subtitulo"
+                android:layout_width="377dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/noto_sans"
+                android:gravity="center"
+                android:text="subtitulo"
+                android:textColor="#1D1B59"
+                android:textSize="15sp"
+                android:translationX="17dp"
+                android:translationY="-40dp"
+                app:layout_constraintBottom_toTopOf="@+id/art_imagen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/art_titulo"
+                app:layout_constraintVertical_bias="0.0" />
+
+
+            <TextView
+                android:id="@+id/art_categoria"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#80A1C8C4"
+                android:fontFamily="@font/noto_sans_bold"
+                android:paddingLeft="9dp"
+                android:paddingTop="5dp"
+                android:paddingRight="9dp"
+                android:paddingBottom="5dp"
+                android:text="Categoria"
+                android:textColor="#FFFFFF"
+                android:textSize="20sp"
+                android:translationX="20dp"
+                android:translationY="-230dp"
+                app:layout_constraintBottom_toTopOf="@+id/art_imagen"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/art_subtitulo"
+                app:layout_constraintVertical_bias="0.0" />
+
+            <TextView
+                android:id="@+id/art_resumen"
+                android:layout_width="366dp"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+
+                android:fontFamily="@font/noto_sans"
+                android:gravity="center"
+                android:text="Resumen"
+                android:textSize="15sp"
+                android:translationX="20dp"
+                android:translationY="-60dp"
+                app:layout_constraintBottom_toTopOf="@+id/art_cuerpo"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/art_leyenda" />
+
+            <TextView
+                android:id="@+id/art_cuerpo"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="20dp"
+
+                android:background="#E3E3E3"
+                android:fontFamily="@font/noto_sans"
+                android:paddingLeft="20dp"
+                android:paddingTop="20dp"
+                android:paddingRight="20dp"
+                android:paddingBottom="20dp"
+                android:text="cuerpo"
+                android:textSize="20sp"
+                android:translationY="-50dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/art_resumen"
+                app:layout_constraintVertical_bias="0.161" />
+
+            <TextView
+                android:id="@+id/art_leyenda"
+                android:layout_width="200dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="20dp"
+                android:fontFamily="@font/noto_sans"
+                android:gravity="center"
+                android:text="leyenda"
+                android:textSize="12sp" />
+
+        </LinearLayout>
+    </ScrollView><![CDATA[
+
+
+    >
+]]>
+</androidx.constraintlayout.widget.ConstraintLayout>

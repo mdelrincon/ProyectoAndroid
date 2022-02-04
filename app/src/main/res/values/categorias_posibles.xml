@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="categorias_array">
+        <item>Elige categoria</item>
+        <item>Nacional</item>
+        <item>Economia</item>
+        <item>Deportes</item>
+        <item>Tecnologia</item>
+    </string-array>
+</resources>

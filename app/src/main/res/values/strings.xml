@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Practica</string>
+    <string name="title_activity_login">LoginActivity</string>
+    <string name="prompt_email">Username</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="login">login</string>
+    <string name="username">GR_25</string>
+    <string name="mensaje_dialogo">¿Estás seguro que quieres borrar este archivo?</string>
+    <string name="titulo_dialogo">Eliminación de articulo</string>
+    <string name="eliminar_articulo">Eliminar</string>
+    <string name="cancelar_eliminacion">No eliminar</string>
+    <string name="NOMBRE_FICHERO_PREFS_CONEXION">pref_conexion</string>
+    <string name="LAST_UPDATE_DATE">last_update_date</string>
+    <string name="TEMPORAL_SESION">temporal_sesion</string>
+    <string name="TEMPORAL_AUTHORITHATHION">temporal_authorithathion</string>
+    <string name="titulo_notificaciones">Nuevos articulos disponibles</string>
+    <string name="URL_BASE_GET_ARTICULO">https://sanger.dia.fi.upm.es/pmd-task/article/</string>
+    <string name="nombreUsuario">nombreUsuario</string>
+</resources>

@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView"
+        android:layout_width="345dp"
+        android:layout_height="238dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginBottom="30dp"
+        app:cardCornerRadius="0dp"
+        app:cardElevation="6dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="140dp"
+            android:background="#1D1B59"
+            android:clickable="false"
+            tools:ignore="SpeakableTextPresentCheck" />
+
+        <TextView
+            android:id="@+id/lbl_categoria"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:autoText="false"
+            android:background="#80A1C8C4"
+            android:backgroundTintMode="multiply"
+            android:fontFamily="@font/noto_sans_bold"
+            android:paddingLeft="9dp"
+            android:paddingTop="5dp"
+            android:paddingRight="9dp"
+            android:paddingBottom="5dp"
+            android:text="CATEGORIA"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:translationZ="1dp"
+            android:typeface="serif" />
+
+        <Button
+            android:id="@+id/btn_editar"
+            android:layout_width="80dp"
+            android:layout_height="37dp"
+            android:background="#3CD4A5"
+            android:fontFamily="@font/noto_sans_bold"
+            android:text="Editar"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:translationX="150dp"
+            android:translationY="90dp"
+            android:translationZ="100dp" />
+
+        <Button
+            android:id="@+id/btn_borrar"
+            android:layout_width="80dp"
+            android:layout_height="37dp"
+            android:background="#3CD4A5"
+            android:fontFamily="@font/noto_sans_bold"
+            android:text="Borrar"
+            android:textColor="#FFFFFF"
+            android:textSize="12sp"
+            android:translationX="250dp"
+            android:translationY="90dp"
+            android:translationZ="100dp" />
+
+        <TextView
+            android:id="@+id/lbl_resumen"
+            android:layout_width="329dp"
+            android:layout_height="39dp"
+            android:contextClickable="false"
+            android:fontFamily="@font/noto_sans"
+            android:paddingLeft="10dp"
+            android:paddingTop="10dp"
+            android:paddingRight="10dp"
+            android:text="Resumen"
+            android:textColor="#505050"
+            android:textSize="10sp"
+            android:translationY="140dp" />
+
+        <TextView
+            android:id="@+id/lbl_titulo"
+            android:layout_width="match_parent"
+            android:layout_height="51dp"
+            android:clickable="false"
+            android:fontFamily="@font/noto_sans"
+            android:paddingLeft="10dp"
+            android:paddingTop="5dp"
+            android:text="Titulo"
+            android:textColor="#3CD4A5"
+            android:textSize="12sp"
+            android:textStyle="bold"
+            android:translationY="180dp" />
+
+    </androidx.cardview.widget.CardView>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
